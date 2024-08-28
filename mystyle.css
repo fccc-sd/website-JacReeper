@@ -1,14 +1,14 @@
-h1 {
+header {
     background-color: crimson;
     color : black;
     text-align : center;
     
     font-family: 'Times New Roman', Times, serif;
-    font-size: 3em;
-    line-height: 2em;
+    font-size: 1.7em;
+    line-height: 1.9em;
 }
+
 h3 {
-    color: crimson;
     font-family: 'Times New Roman', Times, serif;
     font-size: 2em;
     
@@ -16,10 +16,10 @@ h3 {
 
 body{
     background-color: rgb(0, 0, 0);
+    color: crimson;
 }
 
 p {
-    color: crimson;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5em;
     font-style: normal;
@@ -31,7 +31,15 @@ ul {
     font-weight: bold;
 }
 
-h6 {
-    color: crimson;
+#videoGames {
+    color: rgb(104, 29, 29);
+    font-weight: bold;
 }
 
+main {
+    color: rgb(211, 20, 20);
+}
+
+footer {
+    color: rgb(238, 128, 128);
+}
