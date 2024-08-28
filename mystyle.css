@@ -2,7 +2,8 @@ h1 {
     background-color: crimson;
     color : black;
     text-align : center;
-    font: bold italic 'Times New Roman', times, serif;
+    
+    font-family: 'Times New Roman', Times, serif;
     font-size: 3em;
     line-height: 2em;
 }
