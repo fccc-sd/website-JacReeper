@@ -44,3 +44,19 @@ main {
 footer {
     color: #033803;
 }
+
+a:link{
+    color: aliceblue;
+}
+
+a:visited {
+    color: aqua;
+}
+
+a:hover {
+    color: lawngreen;
+}
+
+a:active {
+    color: rgb(255, 0, 0);
+}
