@@ -80,14 +80,33 @@ nav a:link
 }
 nav a:visited
 {
-    color: gray;
+    color: white;
 }
 nav a:hover
 {
-    color: white;
+    color: aqua;
     text-decoration: underline;
 }
 nav a:active
 {
-    color: aqua;
+    color: darkblue;
+}
+table{
+    border: solid 2px #065706;
+    border-collapse: collapse;
+    width: 250px;
+    text-align: center;
+    margin: auto;
+}
+
+tr, td, th {
+    border: solid 2px #065706;
+    padding: 5px;
+    width: 50px;
+    background-color: #0e1801;
+}
+caption{
+    caption-side: top;
+    font-weight: bold;
+    margin: 5px;
 }
