@@ -26,10 +26,12 @@ p {
     font-style: normal;
     font-weight: normal;
 }
+
 ul {
     color: #2c5f2d;
     font-size: 1.5em;
     font-weight: bold;
+    list-style-image: none;
 }
 
 #videoGames {
@@ -59,4 +61,57 @@ a:hover {
 
 a:active {
     color: rgb(255, 0, 0);
+}
+nav
+{
+    background-color: #2c5f2d;
+}
+nav li
+{
+    display: inline;
+    padding-right: 60px;
+    line-height: 2em;
+    list-style-type: none;
+}
+nav a:link
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+nav a:visited
+{
+    color: white;
+}
+nav a:hover
+{
+    color: aqua;
+    text-decoration: underline;
+}
+nav a:active
+{
+    color: darkblue;
+}
+table{
+    border: solid 2px #065706;
+    border-collapse: collapse;
+    width: 250px;
+    text-align: center;
+    margin: auto;
+}
+
+tr, td, th {
+    border: solid 2px #065706;
+    padding: 5px;
+    width: 50px;
+    background-color: #0e1801;
+}
+caption{
+    caption-side: top;
+    font-weight: bold;
+    margin: 5px;
+}
+iframe{
+    width: 800px;
+    height: 650px;
+    border: 0px;
 }
