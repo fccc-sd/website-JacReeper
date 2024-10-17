@@ -110,3 +110,8 @@ caption{
     font-weight: bold;
     margin: 5px;
 }
+iframe{
+    width: 800px;
+    height: 650px;
+    border: 0px;
+}
