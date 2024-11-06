@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Pizza Order Form" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Pizza Order Form">
+    <title>Pizza Delivery</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html" title="Home Page">Home</a></a></li>
+            <li><a href="page2.html" title="DnD">DnD</a></li>
+            <li><a href="page3.html" title="Games">Games</a></li>
+            <li><a href="ccp.html" title="CCP corses">CCP</a></li>
+            <li><a href="PizzaForm.html" title="Order Pizza">Order Pizza</a></li>
+
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Pizza Order Form</h1>
+        <h4>All about Pizza</h4>
+    </header>
+
+
+    <h3>Personal information</h3>
+    <form id="Pizza Order Form" action="my_app.php" method="post">
+        <p>Please enter your First and Last Name.</p>
+        <p>First Name: <input type="text" name="FirstName" id="FirstName"></p>
+        <p>Last Name: <input type="text" name="LastName" id="LastName"></p>
+        <br><br>
+
+        <p>Please Enter Your Address.</p>
+        <p>Address: <input type="text" name="Location" id="Location"></p>
+        <br><br>
+
+        <p>Please Enter Your Phone Number.</p>
+        <p>Phone Number: <input type="text" name="Phone Number" id="Phone Number"></p>
+        <br><br>
+
+        <h3>Pizza Options</h3>
+
+        <fieldset>
+
+            <input type="radio" name="Small" id="Small" value="Small">
+            <label for="Small">Small</label>
+            <br>
+            <input type="radio" name="Medium" id="Medium" value="Medium">
+            <label for="Medium">Medium</label>
+            <br>
+            <input type="radio" name="Large" id="Large" value="Large">
+            <label for="Large">Large</label>
+
+        </fieldset>
+        <br><br><br><br>
+
+
+        <fieldset>
+            <input type="checkbox" name="Pepperoni" id="Pepperoni" value="Pep">
+            <label for="Pepperoni">Pepperoni</label>
+            <br>
+            <input type="checkbox" name="Ham" id="Ham" value="Ham">
+            <label for="Ham">Ham</label>
+            <br>
+            <input type="checkbox" name="Extra Cheese" id="Extra Cheese" value="ExChz">
+            <label for="Extra Cheese">Extra Cheese</label>
+            <br>
+            <input type="checkbox" name="Pinapple" id="Pinapple" value="Pinapple">
+            <label for="Pinapple">Pinapple</label>
+            <br>
+            <input type="checkbox" name="Baccon" id="Baccon" value="Baccon">
+            <label for="Baccon">Baccon</label>
+
+
+        </fieldset>
+        <br><br><br>
+
+        <p>Please Enter any extra instructions or notes for the cook.</p>
+        <textarea name="comments" id="comment" cols="30" rows="10"></textarea>
+
+    </form>
+    <p> <input id="submit" type="submit" value="submit"></p>
+    <p> <input id="reset" type="reset" value="reset"></p>
+    <br><br>
+
+    <h3>subscribe?</h3>
+    <span id="Email">
+    </span><fieldset>
+        
+        <p>Please consider signing up with your email, and get a chance to win a free pizza!</p>
+        <p>Please enter your email address to subscribe.</p>
+        Email: <input type="text" name="email" id="username" autofocus> <br>
+        <br><br>
+        <input id="subscribe" type="submit" value="subscribe">
+        <br><br>
+        <input id="reset subscribe" type="reset" value="reset">
+        <br><br>
+        <input id="message" type="button" value="aleart me">
+        
+    </fieldset>
+</span>
+
+</html>
