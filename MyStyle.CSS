@@ -22,6 +22,24 @@
     li a:hover{color: black;background-color: rgb(255, 255, 255);}
 }
 
+#BR{
+    
+    background-image: url(../website-JacReeper/images/retro-vintage-paper-background-picture_2768232.jpg!sw800);
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    border-width: 5px;
+    text-align: center;
+    font: 1em sans-serif;
+    
+    .Nav{border-color: rgb(0, 0, 0);}
+    li a{color: rgb(0, 0, 0);}
+    li a:hover{color: black;background-color: rgb(231, 217, 153);}
+    #title{font-size: 6em;
+    color: rgb(0, 0, 0);}
+}
+
 .Nav{
 padding: 0px;
 margin: 0px;
@@ -80,7 +98,66 @@ color: rgb(255, 170, 170);}
 
 }
 
+#cats{
 
+
+    background-color:rgb(0, 143, 209);
+    color: rgb(255, 255, 255);
+    border-width: 5px;
+    text-align: center;
+    font: 1em sans-serif;
+    ul{background-color: rgb(142, 52, 202);}
+    .Nav{border-color: rgb(255, 255, 255);}
+    li a{color: rgb(255, 255, 255);}
+    li a:hover{color: black;background-color: rgb(255, 255, 255);}
+
+
+
+    div.gallery{border: 1px solid #ccc;}
+
+    div.gallery:hover {
+    border: 1px solid #777;
+    }
+
+    div.gallery img {
+    width: 100%;
+    height: auto;
+    }
+
+    div.desc {
+    padding: 15px;
+    text-align: center;
+    }
+
+    * {
+    box-sizing: border-box;
+    }
+
+    .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    }
+
+    @media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+    }
+
+    @media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+    }
+
+    .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+}
 
 
 
