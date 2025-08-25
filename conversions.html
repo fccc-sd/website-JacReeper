@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="MyStyle.CSS">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Temperature Converter</title>
+</head>
+<body id = TC>
+    <div class="Nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cats.html">Cats?</a></li>
+            <li><a href="bill.html">Bills?</a></li>
+            <li><a href="https://www.youtube.com/watch?v=zL19uMsnpSU">Rick?</a></li>
+            <li><a href="conversions.html">Temp Cal</a></li>
+        </ul>
+    </div>
+
+
+    </div>
+
+    <div class = calc_body>
+
+
+        <h1>Temperature Calculator</h1>
+
+        
+
+        <script>
+            "use strict"
+            let i = 0;
+                while(i == 0){
+                    const temp_type = prompt("Which do you want to calculate?" + "\n0: Exit" +"\n1: Fahrenheit to Celcius" + "\n2: Celcius to Fahrenheit");
+
+
+                    if(temp_type == 1){
+                    //get Fahrenheit and convert it to a float number
+                    //then using ".toFixed()" to round to the correct number
+                    const farenheit = parseFloat(prompt("Enter Fahrenheit temperature")).toFixed(1);
+                    
+                    //Calculat Celsius
+                    //convert it to a float number
+                    //then using ".toFixed()" to round to the correct number
+                    const celsius = parseFloat((farenheit - 32) * (5 / 9)).toFixed(1);
+
+                    //print Results
+                    document.write(farenheit + " F = " + celsius + " C");
+                    i++;
+                    
+                    }
+                    else if(temp_type == 2){
+                    
+                    const celsius = parseFloat(prompt("Enter Celsius temperature")).toFixed(1);
+                    
+                    const farenheit = parseFloat((celsius * (9 / 5)) + 32).toFixed(1);
+
+                    //print Results
+                    document.write(celsius + " C = " + farenheit + " F");
+                    i++;
+                    }
+                    else if(temp_type == 0){
+                        document.write(0.0 + " ? = " + 0.0 + " ?");
+                        i++;
+                    }
+                }
+                
+                
+
+
+                
+        </script>
+
+
+    </div>
+
+
+</body>
+
+
+</html>
